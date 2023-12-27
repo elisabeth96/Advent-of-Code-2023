@@ -73,7 +73,7 @@ int main() {
             nums.push_back(counter);
         }
     }
-    // compute smallest common multiple of integers in nums
+    // compute the least common multiple of integers in nums
     long long lcm = 1;
     for (int i = 0; i < nums.size(); i++) {
         lcm = (nums[i] * lcm) / std::__gcd(nums[i], lcm);
